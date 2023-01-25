@@ -23,3 +23,9 @@ Micro Kernel: Un microkernel es un tipo de kernel que solo incluye las funciones
 Kernel Hibrido: Un kernel híbrido es una mezcla de varios tipos de kernel, puede incluir características de un kernel monolítico, como un gran conjunto de funciones incorporadas, y características de un kernel modular, como la capacidad de cargar y descargar módulos de manera dinámica. El objetivo de un kernel híbrido es combinar las ventajas de los diferentes tipos de kernel para lograr un equilibrio entre complejidad, rendimiento y flexibilidad.
 
 User vs kernel mode:
+
+dentro de un sistema operativo existen dos modos de operación, los cuales son el modo de usuario y el modo kernel.
+
+El modo de usuario es una forma en la que el sistema operativo brinda un conjunto limitado de funciones y privilegios al proceso en ejecución. En este modo, los procesos no tienen acceso directo a la memoria del sistema ni a los recursos del hardware, lo que ayuda a proteger el sistema de errores o fallos en el código del proceso.
+
+En el modo de kernel, el sistema operativo proporciona acceso completo a todos los recursos del sistema, incluyendo la memoria y los dispositivos de hardware. En este modo, los procesos tienen acceso a todas las funciones y privilegios del sistema operativo, y pueden realizar tareas críticas como la gestión de memoria, el control de procesos y el manejo de dispositivos.
